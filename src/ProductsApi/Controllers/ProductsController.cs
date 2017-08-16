@@ -9,7 +9,7 @@ namespace ProductsApi.Controllers
     [Route("api/[controller]")]
     public class ProductsController : Controller
     {
-        //Ramakrishna GET api/products
+        //GET api/products
         [HttpGet]
         public string Get()
         {
